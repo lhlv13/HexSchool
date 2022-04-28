@@ -1,0 +1,61 @@
+.wrap{
+    width: 1023px;
+    margin: 0 auto;
+}
+
+.customer_form{
+    background: linear-gradient(#01644a, #059674);
+}
+
+.form_title{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 34px 0;
+    text-align: center;
+}
+
+.customer_form .content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 20px 40px;
+}
+
+.customer_form textarea{
+    width: 458px;
+    height: 260x;
+    margin-right: 40px;
+    resize: none;
+}
+.customer_form label{
+    padding: 10px 0;
+    display: block;
+    color: white;
+
+}
+.customer_form input{
+    width: 462px;
+    height: 36px;
+}
+
+
+.customer_form .submit{
+    display: flex;
+    justify-content: end;
+}
+
+.customer_form .submit input{
+    margin-top: 23px;
+    width: 71px;
+    height: 33px;
+    background: #07ca99;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.customer_form .submit input:hover{
+    background: rgb(6, 179, 136);
+}

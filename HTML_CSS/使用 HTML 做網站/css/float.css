@@ -1,0 +1,291 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Top Menu */
+.topmenu{
+    background: #f6f6f6;
+    padding: 4px;
+}
+.topmenu-ul{
+    float: right;
+}
+.topmenu-ul li{
+    float: left;
+}
+
+.topmenu a{
+    display: block;
+    padding: 2px 4px;
+}
+
+.topmenu a:hover span{
+    color: blue;
+}
+
+.facebook span{
+    color: #687eb1;
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+    padding-right: 8px;
+}
+
+.twitter span{
+    color: #00aaec;
+    font-weight: bold;
+}
+
+/* Header */
+.header{
+    padding: 0 21px;
+}
+.header .logo{
+    float: left;
+    padding: 7px 0;
+}
+
+.header .logo a{
+    display: block;
+    width: 170px;
+    height: 38px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header .menu{
+    float: right;
+    font-size: 18px;
+}
+
+.header .menu li{
+    float: left;
+}
+
+.header .menu a{
+    display: block;
+    height: 52px;
+    color: #44dab4;
+    font-weight: bold;
+    padding: 17px 0;
+    margin-right: 40px;
+}
+.header .menu a:hover{
+    border-bottom: 3px solid #44dab4;
+}
+
+/* Banner */
+.banner img{
+    width: 100%;
+}
+
+
+
+/* Main */
+.main .course{
+    padding:60px 20px 0;
+    margin-bottom: 61px;
+}
+
+.main .course li{
+    float: left;
+    margin: 0 8px
+}
+
+.main .course a{
+    display: block;
+    width: 303px;
+    padding: 0 20px 27px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #999;
+}
+
+.main .course a:hover{
+    box-shadow: 0 2px 5px #444;
+}
+
+.main .course .img-box{
+    height: 170px;
+
+}
+
+.main .course .img-box img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main .course h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 14px 0;
+}  
+
+.main .course p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.main .course li ul{
+    list-style: disc;
+    padding-left: 40px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+/* Table */
+table{
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 61px;
+
+}   
+caption{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+
+.main tr{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.main table .row1{
+    background: #f7f7f7;
+    font-weight: bold;
+}
+
+.main td, .main th{
+    padding: 12px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.green{
+    color: #66cab1;
+    font-weight: bold;
+}
+
+
+/* User Form */
+.user_info{
+    background: linear-gradient(#00654c, #009871);
+    padding: 25px;
+}
+
+.user_info p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+input{
+    display: block;
+}
+.writing{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.writing  textarea{
+    width: 460px;
+    height: 250px;
+    resize: none;
+}
+
+.writing .main-info{
+    width: 50%;
+}
+
+
+.main-info{
+    float: right;
+    padding-left: 41px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
+.main-info input{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
+}
+
+.submit{
+    position: relative;
+    height: 47px;
+}
+
+#submit{
+    width: 72px;
+    height: 33px;
+    background: #00cc99;
+    border: none;
+    border-radius: 3px;
+    color: #ddf8f1;
+    margin-bottom: 0;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+#submit:hover{
+    background: rgb(0, 185, 139);
+}
+
+
+/* Footer */
+.footer{
+    padding: 27px 23px 54px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.footer h2{
+    float: left;
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 170px;
+    height: 36px;
+}
+.footer ul{
+    float: right;
+}
+
+.footer a{
+    color: #e75799;
+}
+.footer a:hover{
+    color: rgb(223, 34, 119);
+}
+
